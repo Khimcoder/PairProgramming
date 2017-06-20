@@ -1,0 +1,470 @@
+.wrapper1 {
+  max-width: 1180px;
+  margin: 0 auto; }
+
+body {
+  background: url(../assets/sushi_pattern.png);
+  font-size: 16px;
+  font-family: 'Lato', sans-serif; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
+  display: block; }
+
+audio, canvas, video {
+  display: inline-block; }
+
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+[hidden] {
+  display: none; }
+
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
+
+a:focus {
+  outline: thin dotted; }
+
+a:active, a:hover {
+  outline: 0; }
+
+h1 {
+  font-size: 2em; }
+
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+b, strong {
+  font-weight: 700; }
+
+dfn {
+  font-style: italic; }
+
+mark {
+  background: #ff0;
+  color: #000; }
+
+code, kbd, pre, samp {
+  font-family: monospace, serif;
+  font-size: 1em; }
+
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word; }
+
+q {
+  quotes: \201C \201D \2018 \2019; }
+
+small {
+  font-size: 80%; }
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sup {
+  top: -.5em; }
+
+sub {
+  bottom: -.25em; }
+
+img {
+  border: 0; }
+
+svg:not(:root) {
+  overflow: hidden; }
+
+fieldset {
+  border: 1px solid silver;
+  margin: 0 2px;
+  padding: .35em .625em .75em; }
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0; }
+
+button, input {
+  line-height: normal; }
+
+button, html input[type=button],
+input[type=reset], input[type=submit] {
+  -webkit-appearance: button;
+  cursor: pointer; }
+
+button[disabled], input[disabled] {
+  cursor: default; }
+
+input[type=checkbox], input[type=radio] {
+  box-sizing: border-box;
+  padding: 0; }
+
+input[type=search] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box; }
+
+input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+textarea {
+  overflow: auto;
+  vertical-align: top; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body, figure {
+  margin: 0; }
+
+legend, button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0; }
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.box {
+  display: block;
+  background: rgba(3, 3, 3, 0.85);
+  z-index: 5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; }
+  .box form {
+    background: lightpink;
+    border: 2px ghostwhite solid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    box-shadow: 0 0 10px white;
+    width: 40vw;
+    max-height: 95vh;
+    white-space: nowrap; }
+    .box form .radio {
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+      justify-content: space-around; }
+      .box form .radio input {
+        width: 25%; }
+    .box form .radioLabel {
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+      justify-content: space-around; }
+      .box form .radioLabel label {
+        width: 25%;
+        font-family: 'Muli', sans-serif;
+        text-transform: capitalize;
+        font-size: 0.9rem; }
+    .box form input[type='radio'] {
+      zoom: 1.5; }
+    .box form button {
+      margin: 3%;
+      padding: 2% 5%;
+      border: 2px azure solid;
+      font-weight: 900;
+      background: #dedaeb;
+      box-shadow: 2px 2px 0px black;
+      color: slategrey;
+      border-radius: 5px;
+      letter-spacing: 1.5px;
+      text-transform: uppercase; }
+      .box form button:hover {
+        color: black;
+        background: palegreen;
+        transition: all 0.5s; }
+    .box form h1 {
+      color: azure;
+      font-size: 1.75rem;
+      border-top: 2px white solid;
+      border-bottom: 2px white solid;
+      margin: 1%;
+      padding: 5%;
+      text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1); }
+    .box form h2 {
+      color: azure;
+      margin-top: 1.5%;
+      font-size: 1.2rem;
+      letter-spacing: 1px;
+      text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1); }
+    .box form h3 {
+      color: azure;
+      margin-top: 0;
+      text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
+      font-size: 1rem; }
+    .box form .sushiMenu {
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center; }
+      .box form .sushiMenu .inputs1, .box form .sushiMenu .inputs2, .box form .sushiMenu .inputs3, .box form .sushiMenu .inputs4 {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        width: 4%; }
+        .box form .sushiMenu .inputs1 input[type='checkbox'], .box form .sushiMenu .inputs2 input[type='checkbox'], .box form .sushiMenu .inputs3 input[type='checkbox'], .box form .sushiMenu .inputs4 input[type='checkbox'] {
+          display: block;
+          zoom: 1.5; }
+      .box form .sushiMenu .labels1, .box form .sushiMenu .labels2, .box form .sushiMenu .labels3, .box form .sushiMenu .labels4 {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        width: 20%;
+        white-space: nowrap; }
+        .box form .sushiMenu .labels1 label, .box form .sushiMenu .labels2 label, .box form .sushiMenu .labels3 label, .box form .sushiMenu .labels4 label {
+          display: block;
+          -webkit-align-self: flex-start;
+          -ms-flex-item-align: start;
+          align-self: flex-start;
+          font-size: 0.9rem; }
+
+.close {
+  display: none; }
+
+section.carousel {
+  margin-top: 10vh;
+  height: 80vh;
+  width: 100%;
+  background: #B9E54B; }
+  section.carousel .flickity-page-dots .dot {
+    width: 12px;
+    height: 12px;
+    opacity: 1;
+    background: transparent;
+    border: 2px solid white; }
+  section.carousel .flickity-page-dots .dot.is-selected {
+    background: white; }
+
+.carousel div {
+  height: 80vh;
+  width: 100%; }
+  .carousel div img {
+    max-width: 100%;
+    height: 50%; }
+
+.carousel-cell {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+  .carousel-cell .left {
+    width: 50%;
+    background: lavender; }
+    .carousel-cell .left img {
+      position: relative;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%); }
+  .carousel-cell .right {
+    width: 50%;
+    background: peachpuff;
+    padding: 5%;
+    font-size: 1.2rem; }
+    .carousel-cell .right h4 {
+      font-family: 'Ravi Prakash', cursive;
+      font-size: 4.1rem;
+      margin-bottom: 0;
+      line-height: 70%;
+      margin-top: 10%; }
+    .carousel-cell .right h5 {
+      font-size: 1.5rem;
+      margin: 0;
+      font-style: italic;
+      font-weight: 100;
+      color: lightcoral; }
+    .carousel-cell .right p:nth-child(3) {
+      font-size: 1rem;
+      font-weight: 100;
+      font-style: italic; }
+    .carousel-cell .right p:nth-child(4) {
+      font-size: 1.2rem;
+      line-height: 140%; }
+  .carousel-cell .dance {
+    -webkit-animation-name: dance;
+    animation-name: dance;
+    -webkit-animation-duration: 2.2s;
+    animation-duration: 2.2s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear; }
+
+@-webkit-keyframes dance {
+  0% {
+    -webkit-transform: translate(-50%, -50%) rotate(0) scale(1);
+    transform: translate(-50%, -50%) rotate(0) scale(1); }
+  15% {
+    -webkit-transform: translate(-50%, -50%) rotate(3deg) scale(0.98);
+    transform: translate(-50%, -50%) rotate(3deg) scale(0.98); }
+  30% {
+    -webkit-transform: translate(-50%, -50%) rotate(6deg) scale(0.95);
+    transform: translate(-50%, -50%) rotate(6deg) scale(0.95); }
+  45% {
+    -webkit-transform: translate(-50%, -50%) rotate(3deg) scale(0.98);
+    transform: translate(-50%, -50%) rotate(3deg) scale(0.98); }
+  50% {
+    -webkit-transform: translate(-50%, -50%) rotate(0) scale(1);
+    transform: translate(-50%, -50%) rotate(0) scale(1); }
+  60% {
+    -webkit-transform: translate(-50%, -50%) rotate(-3deg) scale(1.025);
+    transform: translate(-50%, -50%) rotate(-3deg) scale(1.025); }
+  70% {
+    -webkit-transform: translate(-50%, -50%) rotate(-6deg) scale(1.05);
+    transform: translate(-50%, -50%) rotate(-6deg) scale(1.05); }
+  85% {
+    -webkit-transform: translate(-50%, -50%) rotate(-3deg) scale(1.025);
+    transform: translate(-50%, -50%) rotate(-3deg) scale(1.025); }
+  100% {
+    -webkit-transform: translate(-50%, -50%) rotate(0) scale(1);
+    transform: translate(-50%, -50%) rotate(0) scale(1); } }
+
+@keyframes dance {
+  0% {
+    -webkit-transform: translate(-50%, -50%) rotate(0) scale(1);
+    transform: translate(-50%, -50%) rotate(0) scale(1); }
+  15% {
+    -webkit-transform: translate(-50%, -50%) rotate(3deg) scale(0.98);
+    transform: translate(-50%, -50%) rotate(3deg) scale(0.98); }
+  30% {
+    -webkit-transform: translate(-50%, -50%) rotate(6deg) scale(0.95);
+    transform: translate(-50%, -50%) rotate(6deg) scale(0.95); }
+  45% {
+    -webkit-transform: translate(-50%, -50%) rotate(3deg) scale(0.98);
+    transform: translate(-50%, -50%) rotate(3deg) scale(0.98); }
+  50% {
+    -webkit-transform: translate(-50%, -50%) rotate(0) scale(1);
+    transform: translate(-50%, -50%) rotate(0) scale(1); }
+  60% {
+    -webkit-transform: translate(-50%, -50%) rotate(-3deg) scale(1.025);
+    transform: translate(-50%, -50%) rotate(-3deg) scale(1.025); }
+  70% {
+    -webkit-transform: translate(-50%, -50%) rotate(-6deg) scale(1.05);
+    transform: translate(-50%, -50%) rotate(-6deg) scale(1.05); }
+  85% {
+    -webkit-transform: translate(-50%, -50%) rotate(-3deg) scale(1.025);
+    transform: translate(-50%, -50%) rotate(-3deg) scale(1.025); }
+  100% {
+    -webkit-transform: translate(-50%, -50%) rotate(0) scale(1);
+    transform: translate(-50%, -50%) rotate(0) scale(1); } }
+
+@media only screen and (max-width: 1255px) {
+  .box form .sushiMenu .sushiLabel label {
+    font-size: 0.9rem; } }
+
+@media only screen and (max-width: 1150px) {
+  .box form {
+    width: 55vw; }
+  .box form h1 {
+    font-size: 1.4rem; }
+  .box form h2 {
+    font-size: 1.1rem; }
+  .box form h3 {
+    font-size: 0.9rem; }
+  .box form .radioLabel label {
+    font-size: 1rem; }
+  .box form .sushiMenu .sushiInputs {
+    zoom: 0.75; } }
+
+@media only screen and (max-width: 860px) {
+  .box form {
+    white-space: initial;
+    width: 55vw;
+    max-height: 150vh; }
+    .box form .sushiMenu {
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+      .box form .sushiMenu .inputs1, .box form .sushiMenu .inputs2 {
+        width: 10%;
+        zoom: 1.2; }
+      .box form .sushiMenu .labels1, .box form .sushiMenu .labels2 {
+        width: 40%; }
+      .box form .sushiMenu .inputs3, .box form .sushiMenu .inputs4 {
+        width: 10%;
+        zoom: 1.2; }
+      .box form .sushiMenu .labels3, .box form .sushiMenu .labels4 {
+        width: 40%; }
+  section.carousel .carousel-cell .right {
+    padding: 7.5% 10%; }
+    section.carousel .carousel-cell .right h4 {
+      font-size: 3.4rem; }
+    section.carousel .carousel-cell .right h5 {
+      font-size: 1rem; }
+    section.carousel .carousel-cell .right p:nth-child(3) {
+      font-size: 0.9rem; }
+    section.carousel .carousel-cell .right p:nth-child(4) {
+      font-size: 1rem; } }
+
+@media only screen and (max-width: 550px) {
+  .box form {
+    width: 100vw;
+    max-height: 150vh; }
+    .box form .radioLabel label {
+      font-size: 0.6rem; }
+    .box form .sushiMenu .sushiInputs {
+      zoom: 0.9; }
+    .box form .sushiMenu .sushiLabel label {
+      font-size: 0.7rem; }
+  section.carousel .carousel-cell .right {
+    padding: 10% 10% 20% 5%; }
+    section.carousel .carousel-cell .right h4 {
+      font-size: 2rem; }
+    section.carousel .carousel-cell .right h5 {
+      font-size: 0.7rem; }
+    section.carousel .carousel-cell .right p:nth-child(3) {
+      font-size: 0.8rem; }
+    section.carousel .carousel-cell .right p:nth-child(4) {
+      font-size: 0.7rem; } }

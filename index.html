@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Sushi Party</title>
+	<link rel="stylesheet" href="styles/styles.css">
+	<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato|Muli|Ravi+Prakash" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="styles/sweetalert.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<main class="wrapper1">
+		<div class="box">
+			<form>
+				<fieldset class="location">
+					<h1>Find Your Sushi Party Alter Ego</h1>
+					<h2>Indulgence</h2>
+					<div class="radio">
+						<input type="radio" id="q1--1" name="q1" value="hipster">
+						<input type="radio" id="q1--2" name="q1" value="introvert">
+						<input type="radio" id="q1--3" name="q1" value="socialButterfly">
+						<input type="radio" id="q1--4" name="q1" value="controlFreak">
+					</div>
+
+					<div class="radioLabel">
+						<label for="q1--1">DIY sushi</label>
+						<label for="q1--2">take-out</label>
+						<label for="q1--3">All you can eat</label>
+						<label for="q1--4">A-la-carte</label>
+					</div>
+				</fieldset>
+				<fieldset class="dip">
+					<h2>Soy Submersion</h2>
+					<div class="radio">
+						<input type="radio" name="q2" id="q2--1" value="introvert">
+						<input type="radio" id="q2--2" name="q2" value="hipster">
+						<input type="radio" id="q2--3" name="q2" value="controlFreak">
+						<input type="radio" id="q2--4" name="q2" value="socialButterfly">
+					</div>
+					<div class="radioLabel">	
+						<label for="q2--1">plain jane</label>
+						<label for="q2--2">Just the tip</label>
+						<label for="q2--3">55% soy sauce</label>
+						<label for="q2--4">Titanic</label>
+					</div>	
+				</fieldset>
+				<fieldset class="weapon">
+					<h2>Method</h2>
+
+					<div class="radio">
+						<input type="radio" id="q3--1" name="q3" value="controlFreak">
+						<input type="radio" id="q3--2" name="q3" value="hipster">
+						<input type="radio" id="q3--3" name="q3" value="introvert">
+						<input type="radio" id="q3--4" name="q3" value="socialButterfly"> 
+					</div>
+					<div class="radioLabel">
+						<label for="q3--1">chopsticks</label>
+						<label for="q3--2">spoon</label>
+						<label for="q3--3">fork</label>
+						<label for="q3--4">fingers</label>
+					</div>
+					</fieldset>
+					<fieldset class="sushi">
+						<h2>Create Your Own Sushi</h2>
+						<h3>Starting With Rice</h3>
+					<div class="sushiMenu">
+						<div class="inputs1 sushiInputs">
+							<input type="checkbox" id="q4--1" name="q4" value="introvert">
+							<input type="checkbox" id="q4--2" name="q4" value="socialButterfly">
+							<input type="checkbox" id="q4--3" name="q4" value="controlFreak">
+							<input type="checkbox" id="q4--4" name="q4" value="hipster">
+							<input type="checkbox" id="q4--5" name="q4" value="introvert">
+						</div>
+						<div class="labels1 sushiLabel">
+							<label for="q1--1">Cucumber</label>
+							<label for="q4--2">Salmon</label>
+							<label for="q4--3">Wasabi</label>
+							<label for="q4--4">Kale</label>
+							<label for="q4--5">Crabmeat</label>
+						</div>
+						<div class="inputs2 sushiInputs">
+							<input type="checkbox" id="q4--6" name="q4" value="socialButterfly">
+							<input type="checkbox" id="q4--7" name="q4" value="controlFreak">
+							<input type="checkbox" id="q4--8" name="q4" value="hipster">
+							<input type="checkbox" id="q4--9" name="q4" value="introvert">
+							<input type="checkbox" id="q4--10" name="q4" value="socialButterfly">
+						</div>
+						<div class="labels2 sushiLabel">
+							<label for="q4--6">Avocado</label>
+							<label for="q4--7">Brown Rice</label>
+							<label for="q4--8">Kimchi</label>
+							<label for="q4--9">Mushrooms</label>
+							<label for="q4--10">bacon</label>
+						</div>
+						<div class="inputs3 sushiInputs">
+							<input type="checkbox" id="q4--11" name="q4" value="controlFreak">
+							<input type="checkbox" id="q4--12" name="q4" value="hipster">
+							<input type="checkbox" id="q4--13" name="q4" value="introvert">
+							<input type="checkbox" id="q4--14" name="q4" value="socialButterfly">
+							<input type="checkbox" id="q4--15" name="q4" value="controlFreak">
+						</div>
+						<div class="labels3 sushiLabel">
+							<label for="q4--11">Chicken</label>
+							<label for="q4--12">Pear</label>
+							<label for="q4--13">Cream Cheese</label>
+							<label for="q4--14">Smoked Salmon</label>
+							<label for="q4--15">Radish</label>	
+						</div>
+						<div class="inputs4 sushiInputs">
+							<input type="checkbox" id="q4--16" name="q4" value="hipster">
+							<input type="checkbox" id="q4--17" name="q4" value="introvert">
+							<input type="checkbox" id="q4--18" name="q4" value="socialButterfly">
+							<input type="checkbox" id="q4--19" name="q4" value="controlFreak">
+							<input type="checkbox" id="q4--20" name="q4" value="hipster">
+						</div>
+						<div class="labels4 sushiLabel">
+							<label for="q4--16">Shrimp Tempura</label>
+							<label for="q4--17">Tobiko</label>
+							<label for="q4--18">BBQ Eel</label>
+							<label for="q4--19">Tofu Pockets</label>
+							<label for="q4--20">Sweet Potato</label>
+						</div>
+					</div>
+					</fieldset>
+					<button>Feed Me</button>
+			</form>
+		</div>
+
+		<section class="carousel" data-flickity='{ "wrapAround": true, "selectedAttraction": 0.017, "friction": 0.17 }'>
+			<div class="carousel-cell">
+				<div class="left">
+					<img src="assets/uni.png" alt="uni">
+				</div>
+				<div class="right">
+					<h4>Uni • Sea Urchin</h4>
+					<h5>雲丹 うに ウニ (oo-nee)</h5>
+					<p>Uni is the Japanese name for the edible part of the sea urchin.</p>
+					<p>You like to kick back and play it cool and wait for people to engage you. People are taken back by you at first but once they get to know you, they ultimately fall in love with you. You add refinement to a party.</p>
+				<a class="twitter-share-button"
+				  href="https://twitter.com/intent/tweet?text=I'm%20an%20uni,%20take%20this%20quiz%20to%20find%20out%20which%20sushi%20alter%20ego%20you%20have!!">
+				Share</a>
+				</div>
+			</div>
+			<div class="carousel-cell">
+				<div class="left">
+					<img src="assets/handroll.png" alt="Handroll sushi">
+				</div>
+				<div class="right">
+					<h4>Temaki • Handroll</h4>
+					<h5>手巻き寿司 (teh-mah-kee)</h5>
+					<p>Rice and fish in a cone-shaped seaweed wrapper.</p>
+					<p>You have your walls up in new social situations but eventually open up. You have a natural tendency to host the party or assist in party duties because of your giving nature. You thrive in themed parties because costumes are way more fun. You are most social at family functions, with your nearest and dearest.</p>
+				<a class="twitter-share-button"
+				  href="https://twitter.com/intent/tweet?text=I'm%20a%20temaki,%20take%20this%20quiz%20to%20find%20out%20which%20sushi%20alter%20ego%20you%20have!!">
+				Share</a>
+				</div>
+			</div>
+			<div class="carousel-cell">
+				<div class="left">
+					<img src="assets/spicysalmon.png" alt="spicy salmon roll">
+				</div>
+				<div class="right">
+					<h4>Sake Salmon Roll</h4>
+					<h5>鮭,サーモン さけ サケ (sah-keh)</h5>
+					<p>Combination of rice and salmon wrapped in seaweed.</p>
+					<p>The spicy maki is what you're all about. You are outgoing and friendly with a not-so-secret spicy side to you. People like your energy and quick timing with a joke. You always roll in with your fellow crew. You feed off people’s energy and liven up even the dullest of situations. You are the social "butterfish" of the party.</p>
+				<a class="twitter-share-button"
+				  href="https://twitter.com/intent/tweet?text=I'm%20a%20spicy-salmon,%20take%20this%20quiz%20to%20find%20out%20which%20sushi%20alter%20ego%20you%20have!!">
+				Share</a>
+				</div>
+			</div>
+			<div class="carousel-cell">
+				<div class="left">
+					<img src="assets/tempura.png" alt="Tempura">
+				</div>
+				<div class="right">
+					<h4>Tempura</h4>
+					<h5>天ぷら (tem-poo-rah)</h5>
+					<p>Seafood or vegetables dipped in batter and deep fried.</p>
+					<p>A highlight to any party. You are never standing alone and always come surrounded by a basket of friends. You’re the first one on the dance floor and the last one to leave. People love your wit and crunchy charm. You've got the right balance of party flare.</p>
+				<a class="twitter-share-button"
+				  href="https://twitter.com/intent/tweet?text=I'm%20a%20tempura,%20take%20this%20quiz%20to%20find%20out%20which%20sushi%20alter%20ego%20you%20have!!">
+				Share</a>
+				</div>
+			</div>
+			<div class="carousel-cell">
+				<div class="left">
+					<img src="assets/sashimi.png" alt="Sashimi">
+				</div>
+				<div class="right">
+					<h4>Sashimi</h4>
+					<h5>刺身 (sah-shee-mee)</h5>
+					<p>An assortment of sliced raw fish served on a platter with shredded radish and other garnishes.</p>
+					<p>You are Mr/Miss Independent self assured party goer. You can stand on your own and definitely don’t follow the crowd. Some guests may adhere to your raw attitude and some may not. There's nothing more enjoyable and satisfying to you, than having a lively, challenging conversation where you tell it like it is because you are 100% comfortable in your own skin.</p>
+				<a class="twitter-share-button"
+				  href="https://twitter.com/intent/tweet?text=I'm%20a%20sashimi,%20take%20this%20quiz%20to%20find%20out%20which%20sushi%20alter%20ego%20you%20have!!">
+				Share</a>
+				</div>
+			</div>
+			<div class="carousel-cell">
+				<div class="left">
+					<img src="assets/wasabi2.png" alt="wasabi">
+				</div>
+				<div class="right">
+					<h4>Wasabi</h4>
+					<h5>ワサビ (wah-sah-bee)</h5>
+					<p>Japanese Horseradish.</p>
+					<p>You are ‘hard-nosed’, attractive and bring the heat. Your depth and pungency make you a polarizing character. Constantly scanning the environment to make sure that everything is running smoothly and systematically. Ultimately a party enhancer if your DJ skills are showcased.</p>
+					<a class="twitter-share-button"
+					  href="https://twitter.com/intent/tweet?text=I'm%20a%20wasabi,%20take%20this%20quiz%20to%20find%20out%20which%20sushi%20alter%20ego%20you%20have!!">
+					Share</a>
+				</div>
+			</div>
+			<div class="carousel-cell">
+				<div class="left">
+					<img src="assets/ginger.png" alt="ginger">
+				</div>
+				<div class="right">
+					<h4>Gari • Ginger </h4>
+					<h5>ガリ (gah-ri)</h5>
+					<p>A type of tsukemono (pickled vegetables).</p>
+					<p>You are sweet yet intense, providing a lasting impression, offering refreshing new views, cleansing the conversational palettes of your fellow party guests. Contributing to everyone’s party experience. You value independent thinking and adopt a "go with the flow" party attitude. Usually resides near the kale chip bowl.</p>
+					<a class="twitter-share-button"
+					  href="https://twitter.com/intent/tweet?text=I'm%20a%20gari,%20take%20this%20quiz%20to%20find%20out%20which%20sushi%20alter%20ego%20you%20have!!">
+					Share</a>
+				</div>
+			</div>
+			<div class="carousel-cell">
+				<div class="left">
+					<img src="assets/futomaki.png" alt="futo roll">
+				</div>
+				<div class="right">
+					<h4>Futo-Maki</h4>
+					<h5>フト, ふと (foo-toh-mah-kee)</h5>
+					<p>A variation of the maki where the roll is much fatter than usual, and traditionally filled with egg custard, pickled gourd and bits of vegetables.</p>
+					<p>You like to put your own spin on things and take chances that others might not. You are always coming up with new and innovative ideas wherever you go. A little different than everyone else, but cool in your own way.</p>
+					<a class="twitter-share-button"
+					  href="https://twitter.com/intent/tweet?text=I'm%20a%20futo-maki,%20take%20this%20quiz%20to%20find%20out%20which%20sushi%20alter%20ego%20you%20have!!">
+					Share</a>
+				</div>
+			</div>
+		</section>		
+	</main>
+
+
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+		
+	<script src="Javascript/script.js"></script>
+
+	<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+	<script type="text/javascript" async src="https://platform.twitter.com/widgets.js"></script>
+
+	<script src="JavaScript/sweetalert.min.js"></script>
+
+</body>
+</html>

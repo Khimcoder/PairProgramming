@@ -1,0 +1,102 @@
+section.carousel{
+	margin-top: 10vh;
+	height: 80vh;
+	width: 100%;
+	background: #B9E54B;
+	.flickity-page-dots .dot {
+	  width: 12px;
+	  height: 12px;
+	  opacity: 1;
+	  background: transparent;
+	  border: 2px solid white;
+	}
+	.flickity-page-dots .dot.is-selected {
+	  background: white;
+	}
+}
+.carousel div{
+	height: 80vh;
+	width: 100%;
+	img{
+		max-width: 100%;
+		height: 50%;
+	}
+}
+.carousel-cell{
+	display: flex;
+	.left{
+		width: 50%;
+		background: lavender;
+		img{
+			position: relative;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
+	}
+	.right{
+		width: 50%;
+		background: peachpuff;
+		padding: 5%;
+		font-size: 1.2rem;
+		h4{
+			font-family: 'Ravi Prakash', cursive;
+			font-size: 4.1rem;
+			margin-bottom: 0;
+			line-height: 70%;
+			margin-top: 10%;
+		}
+		h5{
+			font-size: 1.5rem;
+			margin: 0;
+			font-style: italic;
+			font-weight: 100;
+			color: lightcoral;
+		}
+		p:nth-child(3){
+			font-size: 1rem;
+			font-weight: 100;
+			font-style: italic;
+		}
+		p:nth-child(4){
+			font-size: 1.2rem;
+			// font-style: italic;
+			line-height: 140%;
+		}
+	}
+	.dance{
+		animation-name: dance;
+		animation-duration: 2.2s;
+		animation-iteration-count: infinite;
+		animation-timing-function: linear;
+		@keyframes dance{
+			0%{
+				transform: translate(-50%, -50%) rotate(0) scale(1);
+			}
+			15%{
+				transform: translate(-50%, -50%) rotate(3deg) scale(0.98);
+			}
+			30%{
+				transform: translate(-50%, -50%) rotate(6deg) scale(0.95);
+			}
+			45%{
+				transform: translate(-50%, -50%) rotate(3deg) scale(0.98);
+			}
+			50%{
+				transform: translate(-50%, -50%) rotate(0) scale(1);
+			}
+			60%{
+				transform: translate(-50%, -50%) rotate(-3deg) scale(1.025);
+			}
+			70%{
+				transform: translate(-50%, -50%) rotate(-6deg) scale(1.05);
+			}
+			85%{
+				transform: translate(-50%, -50%) rotate(-3deg) scale(1.025);
+			}
+			100%{
+				transform: translate(-50%, -50%) rotate(0) scale(1);
+			}
+		}
+	}
+}
